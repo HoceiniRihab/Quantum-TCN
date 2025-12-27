@@ -1,1 +1,16 @@
-# Quantum-TCN
+# Quantum Temporal Convolutional Network (QTCN)
+
+This repository contains a quantum implementation of [the Temporal Convolutional Network (TCN)](https://arxiv.org/abs/1803.01271) using PennyLane and PyTorch.
+
+The quantum model implements the temporal convolutional component of TCNs with quantum dilated convolutional neural network (QDCNN).  
+
+The repository respects the **same file organization as the original TCN [repository](https://github.com/locuslab/TCN)** to make exploration and comparison easier.
+
+[Task Name] /
+    data/ # contains the datasets
+    experiment.py #run experiment 
+    utils.py # utility functions including dataset downloading and preprocessing
+model /
+    QTCN.py # QTCN model    
+
+
