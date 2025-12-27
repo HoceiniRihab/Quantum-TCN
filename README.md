@@ -8,12 +8,17 @@ The quantum model implements the temporal convolutional component of TCNs with q
 
 
 
-The repository respects the **same file organization as the original TCN [repository](https://github.com/locuslab/TCN)** to make exploration and comparison easier.
 
-[TASK_NAME]/
-├── data/
-├── experiments.py
-├── utils.py
+## Usage
+
+The repository respects the **same file organization as the original TCN [repository](https://github.com/locuslab/TCN)** to make exploration and comparison easier :
+
+```
+[TASK_NAME] /
+    data/
+    experiments.py
+    utils.py
 QTCN.py
+```
 
 
