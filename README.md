@@ -1,6 +1,6 @@
 # Quantum Temporal Convolutional Network (QTCN)
 
-This repository contains a quantum implementation of [the Temporal Convolutional Network (TCN)](https://arxiv.org/abs/1803.01271) using PennyLane and PyTorch.
+This repository contains the implementation of [the Quantum Temporal Convolutional Network (QTCN)](https://link.springer.com/chapter/10.1007/978-3-032-32335-4_20) using PennyLane and PyTorch.
 The quantum model implements the temporal convolutional component of TCNs with quantum dilated convolutional neural network (QDCNN).  
 
 ## Benchmarking Datasets
@@ -25,4 +25,13 @@ The repository respects the **same file organization as the original TCN [reposi
 QTCN.py
 ```
 
+To cite this work:
 
+@inproceedings{hoceini2026quantum,
+  title={Quantum Temporal Convolution Network},
+  author={Hoceini, Rihab and Bouida, Ahmed},
+  booktitle={German Conference on Artificial Intelligence (K{\"u}nstliche Intelligenz)},
+  pages={244--251},
+  year={2026},
+  organization={Springer}
+}
