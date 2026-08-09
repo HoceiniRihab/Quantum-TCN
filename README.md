@@ -27,6 +27,7 @@ QTCN.py
 
 To cite this work:
 
+```
 @inproceedings{hoceini2026quantum,
   title={Quantum Temporal Convolution Network},
   author={Hoceini, Rihab and Bouida, Ahmed},
@@ -35,3 +36,4 @@ To cite this work:
   year={2026},
   organization={Springer}
 }
+```
