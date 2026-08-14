@@ -174,7 +174,7 @@ def run_experiment(dataset_name, seq_length=32, hidden_dim=6, batch_size=32,
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, drop_last=True)
     valid_loader = DataLoader(valid_dataset, batch_size=batch_size, shuffle=False, drop_last=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, drop_last=True)
-    model = QTCN(
+    model = QTCN.QTCN(
         seq_length=seq_length,
         input_features=target_features,  
         hidden_dim=hidden_dim,
