@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Tooling / caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Experiment outputs ---
+# Written into the working dir by QTCN/*/experiments.py
+*.pkl
+*.pth
+qtcn_training_*.png
+test_losses*.txt
+
+# --- Downloaded datasets ---
+# MNIST train split is fetched by torchvision on first run.
+# The t10k split and QTCN/Poly_Music/mdata/*.mat are committed and stay tracked.
+QTCN/MNIST/data/MNIST/raw/train-*

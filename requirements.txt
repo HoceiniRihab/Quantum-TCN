@@ -1,0 +1,21 @@
+# Runtime dependencies for QTCN (Quantum Temporal Convolutional Networks)
+# Install with: pip install -r requirements.txt
+
+# Core numerics
+numpy>=1.21
+scipy>=1.7          # scipy.io.loadmat for the Poly_Music .mat datasets
+
+# Deep learning
+torch>=1.12
+torchvision>=0.13   # MNIST dataset + transforms
+
+# Quantum
+pennylane==0.37     # default.qubit device with the 'torch' interface
+# PennyLane 0.37 requires only "autoray>=0.6.11", but autoray 0.8.0 removed
+# autoray.autoray.NumpyMimic, which pennylane/math/__init__.py subclasses.
+# 0.7.2 is the last release that still provides it.
+autoray<0.8
+
+# Utilities / plotting
+tqdm>=4.62
+matplotlib>=3.5
